@@ -104,7 +104,6 @@ def player_stats(data, filter):
     final.plot.bar(figsize=(22, 10), title='Stats by Ratio to Average ' +
                    'for Top 20 Players')
     plt.savefig('top20player_stats.png')
-    print('done with top 20 player plot')
     return final
 
 
